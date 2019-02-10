@@ -19,11 +19,11 @@ pipelineJob('generated.pipeline.job') {
     }
 }
 
-pipelineJob('ssh_check') {
-    definition {
-        cps {
-            script(readFileFromWorkspace('pipelines/sshCheck.groovy'))
-            sandbox()
-        }
-    }
-}
+// pipelineJob('ssh_check') {
+//     definition {
+//         cps {
+//             script(readFileFromWorkspace('pipelines/sshCheck.groovy'))
+//             sandbox()
+//         }
+//     }
+// }
